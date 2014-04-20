@@ -1,0 +1,43 @@
+FORGE
+  remote: http://forge.puppetlabs.com
+  specs:
+    jfryman/nginx (0.0.9)
+      puppetlabs/apt (>= 1.0.0)
+      puppetlabs/concat (>= 1.0.0)
+      puppetlabs/stdlib (>= 0.1.6)
+    puppetlabs/apt (1.4.2)
+      puppetlabs/stdlib (>= 2.2.1)
+    puppetlabs/concat (1.1.0-rc1)
+      puppetlabs/stdlib (>= 3.0.0)
+    puppetlabs/stdlib (4.1.0)
+    saz/vim (2.1.0)
+
+PATH
+  remote: ./private/common
+  specs:
+    example/common (0.0.1)
+
+PATH
+  remote: ./private/users
+  specs:
+    example/users (0.0.1)
+
+PATH
+  remote: ./profile
+  specs:
+    example/profile (0.0.1)
+
+PATH
+  remote: ./role
+  specs:
+    example/role (0.0.1)
+
+DEPENDENCIES
+  example/common (>= 0)
+  example/profile (>= 0)
+  example/role (>= 0)
+  example/users (>= 0)
+  jfryman/nginx (>= 0)
+  puppetlabs/stdlib (>= 0)
+  saz/vim (>= 0)
+

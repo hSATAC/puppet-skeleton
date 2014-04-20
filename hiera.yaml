@@ -1,0 +1,11 @@
+---
+:backends: - yaml
+
+:logger: console
+
+:hierarchy:
+  - common
+  - users
+
+:yaml:
+  :datadir: "%{settings::manifestdir}/hieradata" # Put inder manifestdir before vagrant only syncs this folder into VM

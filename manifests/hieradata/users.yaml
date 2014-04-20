@@ -1,0 +1,11 @@
+---
+users_example:
+  admin:
+    managehome: true
+    shell: "/bin/bash"
+    groups:
+      - "sudo"
+    #ssh_authorized_keys:
+      #- fake_key:
+          #type: "ssh-rsa"
+          #key: "PUBLIC_KEY_HERE"
